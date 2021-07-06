@@ -25,9 +25,9 @@ int main(void)
 	//Won/lost message modified
 	
 	if(sum>=7){
-		printf("%s won!", str);
+		printf("%s won!\n", str);
 	}else{
-		printf("%s lose!", str);
+		printf("%s lose!\n", str);
 	}
 
 	return 0;
