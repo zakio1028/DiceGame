@@ -21,6 +21,14 @@ int main(void)
     		num=0;
 	}
   	printf("Total value: %d\n", sum);
+	
+	//Won/lost message modified
+	
+	if(sum>=7){
+		printf("%s won!", str);
+	}else{
+		printf("%s lose!", str);
+	}
 
 	return 0;
 }
